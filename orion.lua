@@ -14,13 +14,13 @@ local OrionLib = {
 	Flags = {},
 	Themes = {
 		Default = {
-			Main = Color3.fromRGB(15, 15, 15),
-			Second = Color3.fromRGB(15, 15, 15),
-			Stroke = Color3.fromRGB(192,55,55),
-			Divider = Color3.fromRGB(192,55,55),
+			Main = Color3.fromRGB(15,15,15),
+			Second = Color3.fromRGB(15,15,15),
+			Stroke = Color3.fromRGB(192, 55, 55),
+			Divider = Color3.fromRGB(192, 55, 55),
 			Text = Color3.fromRGB(240, 240, 240),
 			TextDark = Color3.fromRGB(180, 180, 180)
-		} -- 192 55 55
+		}
 	},
 	SelectedTheme = "Default",
 	Folder = nil,
@@ -331,7 +331,7 @@ CreateElement("ScrollFrame", function(Color, Width)
 		MidImage = "rbxassetid://7445543667",
 		BottomImage = "rbxassetid://7445543667",
 		TopImage = "rbxassetid://7445543667",
-		ScrollBarImageColor3 = Color,
+		ScrollBarImageColor3 = Color3.fromRGB(15,15,15),
 		BorderSizePixel = 0,
 		ScrollBarThickness = Width,
 		CanvasSize = UDim2.new(0, 0, 0, 0)
