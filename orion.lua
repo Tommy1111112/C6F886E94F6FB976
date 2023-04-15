@@ -455,8 +455,8 @@ function OrionLib:Init()
 			if isfile(OrionLib.Folder .. "/" .. game.GameId .. ".txt") then
 				LoadCfg(readfile(OrionLib.Folder .. "/" .. game.GameId .. ".txt"))
 				OrionLib:MakeNotification({
-					Name = "Configuration",
-					Content = "Auto-loaded configuration for the game " .. game.GameId .. ".",
+					Name = "Booting",
+					Content = "Welcome to Cerium, have a great time!",
 					Time = 5
 				})
 			end
